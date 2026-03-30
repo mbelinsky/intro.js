@@ -4,6 +4,7 @@ import deDE from "./de_DE";
 import esES from "./es_ES";
 import frFR from "./fr_FR";
 import ar_SA from "./ar_SA";
+import ru_RU from "./ru_RU";
 
 const languages = {
   en_US: enUS,
@@ -12,6 +13,7 @@ const languages = {
   es_ES: esES,
   fr_FR: frFR,
   ar_SA: ar_SA,
+  ru_RU: ru_RU,
 } as const;
 
 export type LanguageCode = keyof typeof languages;
